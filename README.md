@@ -21,6 +21,7 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [flockit](https://github.com/smerritt/flockit) - add file locking to programs that don't do it
 * [fluxcapacitor](https://github.com/majek/fluxcapacitor) - a tool for making your program run without blocking on timeouts, on functions like poll and select
 * [fsatrace](https://github.com/jacereda/fsatrace) - filesystem access tracer
+* [ktlswrapper](https://github.com/zliuva/ktlswrapper) - enables TLS support for existing applications without code change
 * [ld-preload-open](https://github.com/fritzw/ld-preload-open) - map files or directories to another location
 * [libeatmydata](https://github.com/stewartsmith/libeatmydata) - disable all forms of writing data safely to disk. fsync() becomes a no-op, O\_SYNC is removed, etc.
 * [libfaketime](https://github.com/wolfcw/libfaketime) - libfaketime modifies the system time for a single application
@@ -30,6 +31,7 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [libnoxattr](https://github.com/gaul/libnoxattr) - disable all forms of extended attribute access
 * [openssl-hook](https://github.com/sebcat/openssl-hook) - log data to/from SSL\_write/SSL\_read to disk
 * [otherport](https://github.com/FiloSottile/otherport) - redirect connections to other ports
+* [stderred](https://github.com/sickill/stderred) - colorize all stderr output that goes to terminal thus making it distinguishable from stdout
 * [timeskew](https://github.com/vi/timeskew) - override time reporting in Linux processes (accelerate/slowdown games, test code involving timers/delays)
 * [unrandom](https://github.com/whitequark/unrandom) - make `srand()` always use the seed 0
 
