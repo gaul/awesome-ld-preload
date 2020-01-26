@@ -20,6 +20,7 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [cleancache](https://github.com/kahing/bin/blob/master/cleancache.c) - drop files content from page cache after closing, useful for backups
 * [flockit](https://github.com/smerritt/flockit) - add file locking to programs that don't do it
 * [fluxcapacitor](https://github.com/majek/fluxcapacitor) - a tool for making your program run without blocking on timeouts, on functions like poll and select
+* [fsatrace](https://github.com/jacereda/fsatrace) - filesystem access tracer
 * [ld-preload-open](https://github.com/fritzw/ld-preload-open) - map files or directories to another location
 * [libeatmydata](https://github.com/stewartsmith/libeatmydata) - disable all forms of writing data safely to disk. fsync() becomes a no-op, O\_SYNC is removed, etc.
 * [libfaketime](https://github.com/wolfcw/libfaketime) - libfaketime modifies the system time for a single application
