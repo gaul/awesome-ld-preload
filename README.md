@@ -31,6 +31,7 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [libnoxattr](https://github.com/gaul/libnoxattr) - disable all forms of extended attribute access
 * [openssl-hook](https://github.com/sebcat/openssl-hook) - log data to/from SSL\_write/SSL\_read to disk
 * [otherport](https://github.com/FiloSottile/otherport) - redirect connections to other ports
+* [preeny](https://github.com/zardus/preeny) - redirect `stdin` and `stdout` to sockets; neuter `sleep`, report constant `time`, amongst others
 * [stderred](https://github.com/sickill/stderred) - colorize all stderr output that goes to terminal thus making it distinguishable from stdout
 * [timeskew](https://github.com/vi/timeskew) - override time reporting in Linux processes (accelerate/slowdown games, test code involving timers/delays)
 * [unrandom](https://github.com/whitequark/unrandom) - make `srand()` always use the seed 0
