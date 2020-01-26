@@ -30,6 +30,7 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [otherport](https://github.com/FiloSottile/otherport) - redirect connections to other ports
 * [timeskew](https://github.com/vi/timeskew) - override time reporting in Linux processes (accelerate/slowdown games, test code involving timers/delays)
 * [unrandom](https://github.com/whitequark/unrandom) - make `srand()` always use the seed 0
+* [lkl](https://github.com/lkl/linux#lkl-hijack-library) use mordern Linux kernel on old Centos5/6 (2.6 kernel) machines.
 
 ## Meta
 
