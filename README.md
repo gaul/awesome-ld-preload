@@ -23,6 +23,7 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [fsatrace](https://github.com/jacereda/fsatrace) - filesystem access tracer
 * [ktlswrapper](https://github.com/zliuva/ktlswrapper) - enables TLS support for existing applications without code change
 * [ld-preload-open](https://github.com/fritzw/ld-preload-open) - map files or directories to another location
+* [ld_preload-sounds](https://github.com/gordol/ld_preload-sounds) - Generates WAV output by hooking malloc() and read().
 * [libeatmydata](https://github.com/stewartsmith/libeatmydata) - disable all forms of writing data safely to disk. fsync() becomes a no-op, O\_SYNC is removed, etc.
 * [libfaketime](https://github.com/wolfcw/libfaketime) - libfaketime modifies the system time for a single application
 * [libinput-force-middle-click-emulation](https://github.com/gaul/libinput-force-middle-click-emulation) - force libinput to emulate a middle click when pressing left and right buttons simultaneously
