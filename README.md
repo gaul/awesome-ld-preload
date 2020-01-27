@@ -24,7 +24,8 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [ktlswrapper](https://github.com/zliuva/ktlswrapper) - enables TLS support for existing applications without code change
 * [ld-preload-open](https://github.com/fritzw/ld-preload-open) - map files or directories to another location
 * [libeatmydata](https://github.com/stewartsmith/libeatmydata) - disable all forms of writing data safely to disk. fsync() becomes a no-op, O\_SYNC is removed, etc.
-* [libfaketime](https://github.com/wolfcw/libfaketime) - libfaketime modifies the system time for a single application
+* [libfaketime](https://github.com/wolfcw/libfaketime) - modifies the system time for a single application
+* [libhugetlbfs](https://github.com/libhugetlbfs/libhugetlbfs) - remap segments onto huge pages for a performance boost
 * [libinput-force-middle-click-emulation](https://github.com/gaul/libinput-force-middle-click-emulation) - force libinput to emulate a middle click when pressing left and right buttons simultaneously
 * [libkeepalive](https://github.com/msantos/libkeepalive) - enable TCP keepalive socket options
 * [libleakmydata](https://github.com/DavidBuchanan314/libleakmydata) - disable SSL certificate verification
@@ -35,6 +36,7 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [preeny](https://github.com/zardus/preeny) - redirect `stdin` and `stdout` to sockets; neuter `sleep`, report constant `time`, amongst others
 * [stderred](https://github.com/sickill/stderred) - colorize all stderr output that goes to terminal thus making it distinguishable from stdout
 * [timeskew](https://github.com/vi/timeskew) - override time reporting in Linux processes (accelerate/slowdown games, test code involving timers/delays)
+* [trickle](https://github.com/mariusae/trickle) - a userland bandwidth shaper
 * [unrandom](https://github.com/whitequark/unrandom) - make `srand()` always use the seed 0
 
 ## Meta
