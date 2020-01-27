@@ -29,6 +29,7 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [libkeepalive](https://github.com/msantos/libkeepalive) - enable TCP keepalive socket options
 * [libleakmydata](https://github.com/DavidBuchanan314/libleakmydata) - disable SSL certificate verification
 * [libnoxattr](https://github.com/gaul/libnoxattr) - disable all forms of extended attribute access
+* [lkl](https://github.com/lkl/linux#lkl-hijack-library) use modern Linux kernel on old Centos5/6 (2.6 kernel) machines.
 * [openssl-hook](https://github.com/sebcat/openssl-hook) - log data to/from SSL\_write/SSL\_read to disk
 * [otherport](https://github.com/FiloSottile/otherport) - redirect connections to other ports
 * [stderred](https://github.com/sickill/stderred) - colorize all stderr output that goes to terminal thus making it distinguishable from stdout
