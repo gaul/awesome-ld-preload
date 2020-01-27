@@ -48,6 +48,7 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 
 * [LD\_PRELOAD is super fun. And easy!](https://jvns.ca/blog/2014/11/27/ld-preload-is-super-fun-and-easy/) (Julia Evans)
 * [LD\_PRELOAD: The Hero We Need and Deserve](https://blog.jessfraz.com/post/ld_preload/) (Jessie Frazelle)
+* [Abusing LD\_PRELOAD for fun and profit](https://www.sweharris.org/post/2017-03-05-ld-preload/) (Stephen Harris)
 
 ## License
 
