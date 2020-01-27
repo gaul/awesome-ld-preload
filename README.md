@@ -38,6 +38,7 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [timeskew](https://github.com/vi/timeskew) - override time reporting in Linux processes (accelerate/slowdown games, test code involving timers/delays)
 * [trickle](https://github.com/mariusae/trickle) - a userland bandwidth shaper
 * [unrandom](https://github.com/whitequark/unrandom) - make `srand()` always use the seed 0
+* [srv-shim](https://github.com/disasters/srv-shim) - drop-in DNS SRV record support for applications relying on getaddrinfo/connect/sendto
 
 ## Meta
 
