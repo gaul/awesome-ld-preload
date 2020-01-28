@@ -34,11 +34,12 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [openssl-hook](https://github.com/sebcat/openssl-hook) - log data to/from SSL\_write/SSL\_read to disk
 * [otherport](https://github.com/FiloSottile/otherport) - redirect connections to other ports
 * [preeny](https://github.com/zardus/preeny) - redirect `stdin` and `stdout` to sockets; neuter `sleep`, report constant `time`, amongst others
+* [srv-shim](https://github.com/disasters/srv-shim) - drop-in DNS SRV record support for applications relying on getaddrinfo/connect/sendto
 * [stderred](https://github.com/sickill/stderred) - colorize all stderr output that goes to terminal thus making it distinguishable from stdout
 * [timeskew](https://github.com/vi/timeskew) - override time reporting in Linux processes (accelerate/slowdown games, test code involving timers/delays)
 * [trickle](https://github.com/mariusae/trickle) - a userland bandwidth shaper
 * [unrandom](https://github.com/whitequark/unrandom) - make `srand()` always use the seed 0
-* [srv-shim](https://github.com/disasters/srv-shim) - drop-in DNS SRV record support for applications relying on getaddrinfo/connect/sendto
+
 
 ## Meta
 
