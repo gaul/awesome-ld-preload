@@ -40,7 +40,6 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [trickle](https://github.com/mariusae/trickle) - a userland bandwidth shaper
 * [unrandom](https://github.com/whitequark/unrandom) - make `srand()` always use the seed 0
 
-
 ## Meta
 
 * [GitHub ld-preload tag](https://github.com/topics/ld-preload)
