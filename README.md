@@ -21,6 +21,7 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [flockit](https://github.com/smerritt/flockit) - add file locking to programs that don't do it
 * [fluxcapacitor](https://github.com/majek/fluxcapacitor) - a tool for making your program run without blocking on timeouts, on functions like poll and select
 * [fsatrace](https://github.com/jacereda/fsatrace) - filesystem access tracer
+* [gamemode](https://github.com/FeralInteractive/gamemode) - enables optimizations for gaming that are automatically unset on process exit
 * [ktlswrapper](https://github.com/zliuva/ktlswrapper) - enables TLS support for existing applications without code change
 * [ld-preload-open](https://github.com/fritzw/ld-preload-open) - map files or directories to another location
 * [libeatmydata](https://github.com/stewartsmith/libeatmydata) - disable all forms of writing data safely to disk. fsync() becomes a no-op, O\_SYNC is removed, etc.
