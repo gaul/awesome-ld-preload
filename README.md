@@ -20,6 +20,7 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [cleancache](https://github.com/kahing/bin/blob/master/cleancache.c) - drop files content from page cache after closing, useful for backups
 * [flockit](https://github.com/smerritt/flockit) - add file locking to programs that don't do it
 * [fluxcapacitor](https://github.com/majek/fluxcapacitor) - a tool for making your program run without blocking on timeouts, on functions like poll and select
+* [force-urandom](https://github.com/AGWA/force-urandom) - force programs to use fast and secure /dev/urandom instead of pointlessly slow /dev/random
 * [fsatrace](https://github.com/jacereda/fsatrace) - filesystem access tracer
 * [gamemode](https://github.com/FeralInteractive/gamemode) - enables optimizations for gaming that are automatically unset on process exit
 * [ktlswrapper](https://github.com/zliuva/ktlswrapper) - enables TLS support for existing applications without code change
