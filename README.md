@@ -23,6 +23,8 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [force-urandom](https://github.com/AGWA/force-urandom) - force programs to use fast and secure /dev/urandom instead of pointlessly slow /dev/random
 * [fsatrace](https://github.com/jacereda/fsatrace) - filesystem access tracer
 * [gamemode](https://github.com/FeralInteractive/gamemode) - enables optimizations for gaming that are automatically unset on process exit
+* [getenv](https://github.com/bAndie91/libyazzy-preload/blob/master/src/getenv.c) - print accessed environment variables; good for debugging, reverse engineering
+* [ip_dscp](https://github.com/bAndie91/libyazzy-preload/blob/master/src/ip_dscp.c) - set DSCP (formerly known as TOS) header on network traffic; you can (de)prioritize per-process traffic (given that routers support TOS)
 * [ktlswrapper](https://github.com/zliuva/ktlswrapper) - enables TLS support for existing applications without code change
 * [ld-preload-open](https://github.com/fritzw/ld-preload-open) - map files or directories to another location
 * [libeatmydata](https://github.com/stewartsmith/libeatmydata) - disable all forms of writing data safely to disk. fsync() becomes a no-op, O\_SYNC is removed, etc.
@@ -33,13 +35,17 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [libleakmydata](https://github.com/DavidBuchanan314/libleakmydata) - disable SSL certificate verification
 * [libnoxattr](https://github.com/gaul/libnoxattr) - disable all forms of extended attribute access
 * [lkl](https://github.com/lkl/linux#lkl-hijack-library) - use modern Linux kernel on old Centos5/6 (2.6 kernel) machines.
+* [nofail_setfacl](https://github.com/bAndie91/libyazzy-preload/blob/master/src/nofail_setfacl.c) - suppress error state when setting ACLs on files which don't support it; useful when your file manager fails due to this error eventhough it should not
+* [openhelper](https://github.com/bAndie91/libyazzy-preload/blob/master/src/openhelper.c) - it runs a given command when your application opens a file (matching to a given pattern), saves command's output to a temporary file, and gives back that one to the application; useful when you want to do on-the-fly transformations but don't want to keep them; downside: it hangs while the command finishes its job
 * [openssl-hook](https://github.com/sebcat/openssl-hook) - log data to/from SSL\_write/SSL\_read to disk
 * [otherport](https://github.com/FiloSottile/otherport) - redirect connections to other ports
 * [preeny](https://github.com/zardus/preeny) - redirect `stdin` and `stdout` to sockets; neuter `sleep`, report constant `time`, amongst others
+* [recyclix](https://github.com/bAndie91/libyazzy-preload/blob/master/src/recyclix.c) - Recycler bin / Trash can for base Linux; captures `unlink(2)` and moves file to the mountpoint-specific Recycler directory, keeping directory structure, configurable size lower-upper limit and file name patterns
 * [srv-shim](https://github.com/disasters/srv-shim) - drop-in DNS SRV record support for applications relying on getaddrinfo/connect/sendto
 * [stderred](https://github.com/sickill/stderred) - colorize all stderr output that goes to terminal thus making it distinguishable from stdout
 * [timeskew](https://github.com/vi/timeskew) - override time reporting in Linux processes (accelerate/slowdown games, test code involving timers/delays)
 * [trickle](https://github.com/mariusae/trickle) - a userland bandwidth shaper
+* [uds_chmod](https://github.com/bAndie91/libyazzy-preload/blob/master/src/uds_chmod.c) - chmod on the given unix file socket when your application binds to it; useful when a server application does not provide option to set a socket file's permissions
 * [unrandom](https://github.com/whitequark/unrandom) - make `srand()` always use the seed 0
 
 ## Meta
