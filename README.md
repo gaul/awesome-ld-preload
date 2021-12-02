@@ -17,6 +17,7 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 
 * [angrymlocker](https://github.com/stiletto/angrymlocker) - library for keeping corresponding process in memory
 * [arg-inject](https://github.com/jktr/arg-inject) - add support for config files
+* [autossl](https://github.com/bAndie91/libyazzy-preload/blob/master/src/autossl.c) - transparently upgrade transport connections from plain to TLS (eg. http to https)
 * [cleancache](https://github.com/kahing/bin/blob/master/cleancache.c) - drop files content from page cache after closing, useful for backups
 * [flockit](https://github.com/smerritt/flockit) - add file locking to programs that don't do it
 * [fluxcapacitor](https://github.com/majek/fluxcapacitor) - a tool for making your program run without blocking on timeouts, on functions like poll and select
