@@ -20,7 +20,9 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [cleancache](https://github.com/kahing/bin/blob/master/cleancache.c) - drop files content from page cache after closing, useful for backups
 * [flockit](https://github.com/smerritt/flockit) - add file locking to programs that don't do it
 * [fluxcapacitor](https://github.com/majek/fluxcapacitor) - a tool for making your program run without blocking on timeouts, on functions like poll and select
+* [force-urandom](https://github.com/AGWA/force-urandom) - force programs to use fast and secure /dev/urandom instead of pointlessly slow /dev/random
 * [fsatrace](https://github.com/jacereda/fsatrace) - filesystem access tracer
+* [gamemode](https://github.com/FeralInteractive/gamemode) - enables optimizations for gaming that are automatically unset on process exit
 * [ktlswrapper](https://github.com/zliuva/ktlswrapper) - enables TLS support for existing applications without code change
 * [ld-preload-open](https://github.com/fritzw/ld-preload-open) - map files or directories to another location
 * [libeatmydata](https://github.com/stewartsmith/libeatmydata) - disable all forms of writing data safely to disk. fsync() becomes a no-op, O\_SYNC is removed, etc.
@@ -30,10 +32,11 @@ functionality via DYLD\_INSERT\_LIBRARIES.
 * [libkeepalive](https://github.com/msantos/libkeepalive) - enable TCP keepalive socket options
 * [libleakmydata](https://github.com/DavidBuchanan314/libleakmydata) - disable SSL certificate verification
 * [libnoxattr](https://github.com/gaul/libnoxattr) - disable all forms of extended attribute access
-* [lkl](https://github.com/lkl/linux#lkl-hijack-library) use modern Linux kernel on old Centos5/6 (2.6 kernel) machines.
+* [lkl](https://github.com/lkl/linux#lkl-hijack-library) - use modern Linux kernel on old Centos5/6 (2.6 kernel) machines.
 * [openssl-hook](https://github.com/sebcat/openssl-hook) - log data to/from SSL\_write/SSL\_read to disk
 * [otherport](https://github.com/FiloSottile/otherport) - redirect connections to other ports
 * [preeny](https://github.com/zardus/preeny) - redirect `stdin` and `stdout` to sockets; neuter `sleep`, report constant `time`, amongst others
+* [srv-shim](https://github.com/disasters/srv-shim) - drop-in DNS SRV record support for applications relying on getaddrinfo/connect/sendto
 * [stderred](https://github.com/sickill/stderred) - colorize all stderr output that goes to terminal thus making it distinguishable from stdout
 * [timeskew](https://github.com/vi/timeskew) - override time reporting in Linux processes (accelerate/slowdown games, test code involving timers/delays)
 * [trickle](https://github.com/mariusae/trickle) - a userland bandwidth shaper
